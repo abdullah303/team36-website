@@ -2405,3 +2405,8 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+video {
+  border-style: solid;
+  border-width: 2px;
+}
