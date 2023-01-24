@@ -170,11 +170,13 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 .header {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
 }
+
 
 .header.header-scrolled {
   background: #fff;
@@ -207,7 +209,8 @@ section {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding:0;
+
 }
 
 .navbar ul {
@@ -229,8 +232,8 @@ section {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
@@ -287,7 +290,7 @@ section {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
   font-weight: 600;
 }
