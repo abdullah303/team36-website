@@ -547,6 +547,7 @@ section {
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
+  margin:100px;
 }
 
 .about h3 {
@@ -738,6 +739,7 @@ section {
   margin: 0;
   font-weight: 700;
   color: #012970;
+
 }
 
 .features .feture-tabs .tab-content i {
@@ -1405,21 +1407,27 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 30px 0;
+  margin:30px;
+  font-family: "Nunito", sans-serif;
 }
 
 .team .member {
+  margin:20px;
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
+  
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  width:60px;
+
 }
 
 .team .member .member-img:after {
@@ -1497,6 +1505,8 @@ section {
   right: 8px;
   opacity: 1;
 }
+
+
 
 /*--------------------------------------------------------------
 # Clients
@@ -2413,3 +2423,4 @@ video {
   border-style: solid;
   border-width: 2px;
 }
+
