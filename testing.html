@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Development Blog</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/mi_touchpoints.png" rel="icon">
+  <link href="assets/img/mi_touchpoints.png" rel="apple-touch-icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.11.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/mi_touchpoints.png" alt="">
+        <span>MotionInput</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#intro"><span>Intro</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Abstract</a></li>
+              <li><a href="#">Demo Video</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Project Timeline</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#intro"><span>Requirements</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Project Background</a></li>
+              <li><a href="#">Initial Project Objectives</a></li>
+              <li><a href="#">Project Analysis</a></li>
+              <li><a href="#">Final Requirements</a></li>
+              <li><a href="#">MoSCoW Project Goals</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#intro"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">MotionInput V3</a></li>
+            </ul>
+          </li>          
+          <li class="dropdown"><a href="#intro"><span>HCI</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">User Interviews</a></li>
+              <li><a href="#">Personas</a></li>
+              <li><a href="#">Sketches</a></li>
+              <li><a href="#">Initial Prototype</a></li>
+              <li><a href="#">Heuristic Evaluation</a></li>
+              <li><a href="#">Revised Prototype</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#intro"><span>System Design</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">MI System Architecture</a></li>
+              <li><a href="#">Backend Architecture</a></li>
+              <li><a href="#">Design Goals</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Implementation</a></li>
+          <li class="dropdown"><a href="testing.html"><span>Testing</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Testing Strategy</a></li>
+              <li><a href="#">Performance Testing</a></li>
+              <li><a href="#">User Acceptance Testing</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="inner-page.html"><span>Evaluation</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Final MoSCoW List</a></li>
+              <li><a href="#">Individual Contribution</a></li>
+              <li><a href="#">Developer Feedback</a></li>
+              <li><a href="#">Future Work</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Appendices</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Links</a></li>
+              <li><a href="#">Creative Commons License</a></li>
+              <li><a href="#">GDPR and EULA Agreement</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Development Blog</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Testing</li>
+        </ol>
+        <h2>Testing</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+    <section class="testing">
+    <div>
+       <h3>Limited dictionaries:</h3>
+    <p>
+        During the process of testing our program on both Autocad and Sketchup, we encountered some obstacles related to 
+        speech recognition. The issues we faced included the program often detecting incorrect words or picking up a lot 
+        of background noise, making it more challenging to use.
+        To overcome these challenges, we decided to create specific dictionaries for each software that we used. For example, 
+        we developed a Sketchup-specific dictionary that only contained words necessary for the softwares features. This 
+        approach allowed us to map other words to 'unk,' which prevented the program from misinterpreting them. We also found 
+        that the detection of specific commands became more accurate by mapping words like 'orbiting' to 'orbit,' providing users 
+        with greater flexibility in their use of speech commands.
+        One of the main advantages of developing these separate dictionaries is that you can easily switch between them. 
+        For instance, users can change dictionaries by saying "switch dictionary Autocad." Additionally, since Autocad and Tinkercad 
+        have different lists of features, creating separate dictionaries for each software helped to increase accuracy in the use 
+        of speech commands.
+        After implementing these measures, we observed a significant improvement in program performance, with a 35% increase in accuracy, 
+        and almost all words were accurately detected. The overall operation of the program also became much smoother, providing a more 
+        seamless user experience.
+    </p>
+    </div>  
+    <div>
+        <h3>Facial calibration:</h3>
+    <p>
+        During our testing phase, we encountered a problem related to the accuracy of our facial navigation feature. It was only 
+        successful in accurately identifying 20% of the users, as it was unresponsive for some while being overly sensitive for others. 
+        This made it challenging to use, and we realised that it required a performance boost to improve user experience.
+        To address this issue, we decided to implement the facial calibration feature to tailor facial navigation specifically to the user's 
+        face. The primary objective of this feature is to simplify the facial navigation process by ensuring that the program is accurately 
+        calibrated for each individual's unique facial features.
+        This feature includes a series of screens that prompt users to move certain parts of their face, which are typically used in facial 
+        navigation. This calibration process helps the program adjust its sensitivity levels based on the scope of the user's facial expressions, 
+        making it more precise and accurate. 
+        During the implementation of the facial calibration feature, we encountered a few challenges during its execution. Firstly, during the 
+        calibration process, the program required the user to look all the way to the side, which prevented them from seeing if the screen had 
+        changed yet. However, we later discovered that the feature included a sound notification that indicated the completion of each mode of 
+        calibration. This sound made it easier for the user to track their progress during the calibration process and eliminated the issue of 
+        not being able to see the screen.
+        However, after successfully calibrating the facial navigation feature, we discovered that some of its functions, such as dragging, 
+        became more difficult to use. Additionally, the fps (frames per second) dropped, which caused navigation to become less smooth. This 
+        decrease in functionality and usability could make the feature impractical to use in architectural CAD software.
+        Overall, although there are some places that need improvement, facial navigation became 2x more accurate than before. 
+    </p>
+    </div>
+    </section>  
+    <div>
+
+      </div>
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
